@@ -1,0 +1,6 @@
+eltra = input('Digite qualquer coisa: ')
+print(type(eltra))
+print('É número: ', eltra.isnumeric())
+print('É letra: ', eltra.isalpha())
+print('só tem letra minúscula: ', eltra.islower())
+print('Só tem letra maiúscula: ', eltra.isupper())

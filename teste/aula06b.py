@@ -1,0 +1,6 @@
+n = input('Digite um algo: ')
+# print(n.isnumeric())
+# print(n.isalpha())
+# print(n.isupper())
+# print(n.islower())
+print(n.isspace()) 
