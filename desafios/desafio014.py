@@ -1,3 +1,4 @@
 salario = float(input('Digite o valor do seu salário atual: R$'))
-novo = (salario * 15 / 100) + salario
-print('Seu salário foi ajustado com um bonus de 15%, confira seu novo salário: R${:.2f}.'.format(novo))
+porcentagem = int(input('Digite o quanto você quer de aumento: '))
+novo = (salario * porcentagem / 100) + salario # Primeiro valor é o número cheio e o segundo é pra porcentagem
+print('Seu salário foi ajustado com um bonus de {}%, confira seu novo salário: R${:.2f}.'.format(porcentagem, novo))
