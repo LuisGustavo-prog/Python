@@ -4,11 +4,11 @@ def relogio(valor1, valor2):
     match valor2:
         case 'y':
             for sequencia in range(valor1):
-                print(valor1 -sequencia, end=' ', flush=True)
+                print(valor1 -sequencia, end='\r', flush=True)
                 time.sleep(1)
         case 'n':
             for sequencia in range(valor1):
-                print(sequencia, end=' ', flush=True)
+                print(sequencia, end='\r', flush=True)
                 time.sleep(1)
         case _:
             print('Digite uma resposta valida!')

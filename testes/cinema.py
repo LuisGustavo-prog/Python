@@ -1,4 +1,4 @@
-class cimena:
+class cinema:
     def __init__(self, nome, email, plano, valor):
         self.nome = nome
         self.email = email
@@ -38,7 +38,7 @@ class cimena:
             
         
 
-cinema = cimena('Shrek', 'shrek@gmail.com', 'basic', 'R$32,99')
+cinema = cinema('jinx', 'jinx@gmail.com', 'basic', 'R$32,99')
 print(cinema.nome)   
 print(cinema.email)   
 print(cinema.plano)    
@@ -55,3 +55,4 @@ print(cinema.valor)
 
 cinema.sala1('harry potter')
 cinema.sala_1('Harry potter')
+
