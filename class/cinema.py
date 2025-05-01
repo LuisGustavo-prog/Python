@@ -35,6 +35,8 @@ class cinema:
             print(f'Acesso a sala liberado {filme}')
         else:
             raise Exception('Erro506')
+        
+    
             
         
 

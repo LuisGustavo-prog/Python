@@ -1,4 +1,4 @@
 import random
-sequencia = ['Luis', 'Tainá', 'Gabriel', 'Lukas']
+sequencia = ['god', 'macho', 'kid', 'jesus']
 random.shuffle(sequencia)
 print(sequencia) 

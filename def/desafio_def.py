@@ -9,3 +9,4 @@ capacidade_de_produção = int(input('Digite o número de capacidade de produç�
 fator_de_foco = int(input('Digite o número de fator de foco: '))
 fator_de_velocidade = calculo_matematico(capacidade_de_produção, fator_de_foco)
 print(fator_de_velocidade)
+
