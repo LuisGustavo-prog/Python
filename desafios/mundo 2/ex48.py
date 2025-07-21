@@ -1,9 +1,9 @@
-def binary(choice):
+def binary(choice, number):
     if 1:
-        return bin(choice)
+        return bin(number)
     elif 2:
-        return oct(choice)
+        return oct(number)
     elif 3:
-        return hex(choice)
+        return hex(number)
     
-print(binary(2))
+print(binary(2, 234))
